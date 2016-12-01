@@ -12,7 +12,7 @@ function draw() {
   angle = slider.value();
   stroke(255);
   translate(width/2, height);
-  branch(275);
+  branch(height / 3.5);
 }
 
 function branch(len) {
